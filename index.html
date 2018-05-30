@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <!-- header -->
-    <nav class="flex items-center justify-between flex-wrap bg-grey-darkest p-4">
-        <div class="flex items-center flex-no-shrink text-white mr-6">
+    <nav class="flex items-center justify-between flex-wrap bg-grey-darkest p-4 pin">
+        <div class="block flex items-center flex-no-shrink text-white mr-6">
           <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
           <span class="font-semibold text-xl tracking-tight">Tailwind Admin</span>
         </div>
@@ -20,22 +21,30 @@
         </div> -->
       </nav>
     <!-- /header -->
-        
-    <!-- sidenav -->
-
-    <!-- /sidenav -->
-
+     <div class="flex">
+       <!-- Side nav -->
+       <div class="w-1/6 min-h-screen bg-grey-light">
+         
+       </div>
+       <!-- /Sidenav -->
+       
     <!-- content -->
-          <!-- breadcrumb -->
+    <div class="w-5/6 min-h-screen">
+      <!-- breadcrumb -->
+          <div class="flex flex-row-reverse bg-grey-lighter">
+            <div class="text-grey-darker text-center  m-1">Dashboard</div>
+            <div class="text-grey-darker text-center  m-1">Home <i class="fas fa-angle-double-right"></i></div>
+          </div>
 
-          <!-- /breadcrumb -->
+    </div>
           <!-- page content -->
 
           <!-- /page content -->
     <!-- /content -->
-
-    <!-- footer -->
+           <!-- footer -->
 
     <!-- /footer -->
+
+     </div>   
   </body>
 </html>
