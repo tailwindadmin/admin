@@ -4561,6 +4561,28 @@ button,
   z-index: auto;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #3d4852;
+  padding: 1rem;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.main-logo {
+  display: block;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: #fff;
+  margin-right: 1.5rem;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;
