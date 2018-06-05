@@ -8,6 +8,18 @@
   <link rel="stylesheet" href="./dist/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#menu").click(function(){
+            $("#sidenav").toggle();
+        });
+    });
+    </script>
+
+    <!-- /script -->
 </head>
 
 <body class="bg-white-lightest">
@@ -21,7 +33,7 @@
       <span class="font-semibold text-xl tracking-tight">Tailwind Admin</span>
     </div>
     <div class="block lg:hidden">
-      <button class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
+      <button id="menu" class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <title>Menu</title>
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -48,7 +60,7 @@
   <!-- /header -->
   <div class="flex">
     <!-- Side nav -->
-    <div class="w-1/2 lg:w-1/6 sm:w-1/2 md:w-1/4 xl:w-1/6 min-h-screen bg-grey-light">
+    <div class="w-1/2 lg:w-1/6 sm:w-1/2 md:w-1/4 xl:w-1/6 min-h-screen bg-grey-light" id="sidenav">
       <ul class="list-reset">
         <li>
           <a href="index.html" class="no-underline block p-4 text-grey-darker bg-grey-lighter font-light border-purple hover:bg-grey-lighter border-b-1 border-r-4">Home
@@ -83,7 +95,7 @@
     <!-- /Sidenav -->
 
     <!-- content -->
-    <div class="w-1/2 lg:w-5/6 sm:w-1/2 md:w-3/4 xl:w-5/6 min-h-screen">
+    <div class="flex-grow w-1 w-1/2 lg:w-5/6 sm:w-1/2 md:w-3/4 xl:w-5/6 min-h-screen">
       <!-- breadcrumb -->
       <div class="flex flex-row-reverse bg-grey-lighter">
         <div class="text-grey-darker text-center  m-1">
