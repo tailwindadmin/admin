@@ -4580,7 +4580,13 @@ button,
   align-items: center;
   flex-shrink: 0;
   color: #fff;
-  margin-right: 1.5rem;
+}
+
+.menu-item {
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  color: #606f7b;
 }
 
 @media (min-width: 576px) {

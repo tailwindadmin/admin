@@ -9,5 +9,9 @@
 }
 
 .main-logo {
-    @apply block flex items-center flex-no-shrink text-white mr-6;
+    @apply block flex items-center flex-no-shrink text-white;
+}
+
+.menu-item {
+    @apply no-underline block p-4 text-grey-darker;
 }

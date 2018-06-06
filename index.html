@@ -9,42 +9,55 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
 
-    <!-- script -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        $("#menu").click(function(){
-            $("#sidenav").toggle();
-        });
+  <!-- script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#menu").click(function () {
+        $("#sidenav").toggle();
+      });
+      $("#menu2").click(function () {
+        $("#sidenav").toggle();
+      });
     });
-    </script>
-
-    <!-- /script -->
+  </script>
+  <!-- /script -->
 </head>
 
 <body class="bg-white-lightest">
   <!-- header -->
   <nav class="main-nav">
-    <div class="main-logo">
-      <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
-        <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
-        />
-      </svg>
-      <span class="font-semibold text-xl tracking-tight invisible lg:visible">Tailwind Admin</span>
-    </div>
-    <div class="block lg:hidden">
-      <button id="menu" class="flex px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
-        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <div class="block visible lg:hidden">
+      <button id="menu" class="flex px-3 py-2 text-grey-lighter  hover:text-white hover:border-white">
+        <svg class="fill-current h-5 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <title>Menu</title>
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
         </svg>
       </button>
     </div>
+    <div class="main-logo">
+      <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
+        />
+      </svg>
+      <span class="font-semibold text-xl tracking-tight">Tailwind Admin</span>
+
+      <div class="block invisible lg:visible">
+        <button id="menu2" class="flex px-3 py-2 text-grey-lighter  hover:text-white hover:border-white">
+          <svg class="fill-current h-5 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
     <!-- right section -->
     <div class="w-1/4 md:w-auto md:flex text-right">
       <div>
         <img class="inline-block h-8 w-8 rounded-full" src="https://avatars0.githubusercontent.com/u/4323180?s=460&v=4" alt="">
       </div>
+
       <div class="hidden md:block md:flex md:items-center ml-2">
         <span class="text-white text-sm mr-1">John Doe</span>
         <div>
@@ -63,28 +76,28 @@
     <div class="w-1/2 lg:w-1/6 sm:w-1/2 md:w-1/4 xl:w-1/6 min-h-screen bg-grey-light" id="sidenav">
       <ul class="list-reset">
         <li>
-          <a href="index.html" class="no-underline block p-4 text-grey-darker bg-grey-lighter font-light border-purple hover:bg-grey-lighter border-b-1 border-r-4">Home
+          <a href="index.html" class="menu-item bg-grey-lighter font-light border-purple hover:bg-grey-lighter border-b-1 border-r-4">Home
             <i class="fa fa-angle-right float-right" aria-hidden="true"></i>
           </a>
 
         </li>
         <li>
-          <a href="forms.html" class="no-underline block p-4 text-grey-darker font-light border-grey-light hover:border-purple-light hover:bg-grey-lighter border-r-4">Forms
+          <a href="forms.html" class="menu-item font-light border-grey-light hover:border-purple-light hover:bg-grey-lighter border-r-4">Forms
             <i class="fa fa-angle-right float-right" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="#" class="no-underline block p-4 text-grey-darker font-light border-grey-light hover:border-purple-light hover:bg-grey-lighter border-r-4">Tables
+          <a href="#" class="menu-item font-light border-grey-light hover:border-purple-light hover:bg-grey-lighter border-r-4">Tables
             <i class="fa fa-angle-right float-right" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="#" class="no-underline block p-4 text-grey-darker font-light border-purple-light bg-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Pages
+          <a href="#" class="menu-item font-light border-purple-light bg-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Pages
             <i class="fa fa-angle-down float-right" aria-hidden="true"></i>
           </a>
           <ul class="list-reset">
             <li>
-              <a href="login.html" class="no-underline block p-4 text-grey-darker font-light border-purple-light bg-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Login
+              <a href="login.html" class="menu-item font-light border-purple-light bg-grey-lighter hover:border-purple-light hover:bg-grey-lighter border-r-4">Login
                 <i class="fa fa-angle-right float-right" aria-hidden="true"></i>
               </a>
             </li>
@@ -194,8 +207,9 @@
               </div>
             </div>
           </div>
-          
+
         </div>
+        
 
 
 
