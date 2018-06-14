@@ -5,122 +5,12 @@
   <title>Dashboard | Tailwind Admin</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Universal CSs -->
   <link rel="stylesheet" href="./dist/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
 
-  <!-- script -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $("#menu").click(function () {
-        $("#sidenav").toggle();
-      });
-      $("#menu2").click(function () {
-        $("#sidenav").toggle();
-      });
-    });
-  </script>
 
-<script>
-    window.onload = function () {
-    
-    var options = {
-      exportEnabled: true,
-      animationEnabled: true,
-      title:{
-        text: "Units Sold VS Profit"
-      },
-      subtitles: [{
-        text: "Click Legend to Hide or Unhide Data Series"
-      }],
-      axisX: {
-        title: "States"
-      },
-      axisY: {
-        title: "Units Sold",
-        titleFontColor: "#4F81BC",
-        lineColor: "#4F81BC",
-        labelFontColor: "#4F81BC",
-        tickColor: "#4F81BC",
-        includeZero: false
-      },
-      axisY2: {
-        title: "Profit in USD",
-        titleFontColor: "#C0504E",
-        lineColor: "#C0504E",
-        labelFontColor: "#C0504E",
-        tickColor: "#C0504E",
-        includeZero: false
-      },
-      toolTip: {
-        shared: true
-      },
-      legend: {
-        cursor: "pointer",
-        itemclick: toggleDataSeries
-      },
-      data: [{
-        type: "spline",
-        name: "Units Sold",
-        showInLegend: true,
-        xValueFormatString: "MMM YYYY",
-        yValueFormatString: "#,##0 Units",
-        dataPoints: [
-          { x: new Date(2016, 0, 1),  y: 120 },
-          { x: new Date(2016, 1, 1), y: 135 },
-          { x: new Date(2016, 2, 1), y: 144 },
-          { x: new Date(2016, 3, 1),  y: 103 },
-          { x: new Date(2016, 4, 1),  y: 93 },
-          { x: new Date(2016, 5, 1),  y: 129 },
-          { x: new Date(2016, 6, 1), y: 143 },
-          { x: new Date(2016, 7, 1), y: 156 },
-          { x: new Date(2016, 8, 1),  y: 122 },
-          { x: new Date(2016, 9, 1),  y: 106 },
-          { x: new Date(2016, 10, 1),  y: 137 },
-          { x: new Date(2016, 11, 1), y: 142 }
-        ]
-      },
-      {
-        type: "spline",
-        name: "Profit",
-        axisYType: "secondary",
-        showInLegend: true,
-        xValueFormatString: "MMM YYYY",
-        yValueFormatString: "$#,##0.#",
-        dataPoints: [
-          { x: new Date(2016, 0, 1),  y: 19034.5 },
-          { x: new Date(2016, 1, 1), y: 20015 },
-          { x: new Date(2016, 2, 1), y: 27342 },
-          { x: new Date(2016, 3, 1),  y: 20088 },
-          { x: new Date(2016, 4, 1),  y: 20234 },
-          { x: new Date(2016, 5, 1),  y: 29034 },
-          { x: new Date(2016, 6, 1), y: 30487 },
-          { x: new Date(2016, 7, 1), y: 32523 },
-          { x: new Date(2016, 8, 1),  y: 20234 },
-          { x: new Date(2016, 9, 1),  y: 27234 },
-          { x: new Date(2016, 10, 1),  y: 33548 },
-          { x: new Date(2016, 11, 1), y: 32534 }
-        ]
-      }]
-    };
-    $("#chartContainer").CanvasJSChart(options);
-    
-    function toggleDataSeries(e) {
-      if (typeof (e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
-        e.dataSeries.visible = false;
-      } else {
-        e.dataSeries.visible = true;
-      }
-      e.chart.render();
-    }
-    
-    }
-    </script>
-
-  <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-  <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
-  <!-- /script -->
 </head>
 
 <body class="bg-white-lightest">
@@ -221,9 +111,9 @@
       </div>
       <!-- /breadcrumb -->
       <!-- page content -->
-      <div class="flex mx-2 my-2">
-        <!-- dummy dashboard for now -->
+      <!-- Stats Section -->
 
+      <div class="flex mx-2 my-2">
         <div class="flex-grow  w-1/2">
           <div class="bg-white border-t border-b sm:border-l sm:border-r sm:rounded shadow mb-6">
             <div class="border-b px-6">
@@ -308,9 +198,10 @@
           </div>
 
         </div>
-
       </div>
-      <!-- graph -->
+      <!-- /Stats Section -->
+
+      <!-- Graph -->
 
       <div class="w-full px-2">
         <div class="bg-white border-t border-b sm:rounded sm:border shadow">
@@ -322,21 +213,17 @@
           <div>
             <div class="text-center px-6 py-4">
               <!-- graph -->
-              <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+              <!-- <canvas id="canvas"></canvas> -->
               <!-- /graph -->
             </div>
           </div>
         </div>
       </div>
-
-
-
-
       <!-- /graph -->
 
       <!-- second part -->
       <div class="flex flex-wrap lg:mx-2 lg:my-2">
-        <div class="w-full mb-6 lg:mb-0 lg:w-1/2 px-4 flex flex-col">
+        <div class="w-full mb-6 lg:mb-0 lg:w-1/2 flex flex-col">
           <div class="flex-grow flex flex-col bg-white border-t border-b sm:rounded sm:border shadow overflow-hidden">
             <div class="border-b">
               <div class="flex justify-between px-6 -mb-px">
@@ -446,24 +333,40 @@
           <div class="bg-white border-t border-b sm:rounded sm:border shadow">
             <div class="border-b">
               <div class="flex justify-between px-6 -mb-px">
-                <h3 class="text-blue-dark py-4 font-normal text-lg">Recent Activity</h3>
+                <h3 class="text-blue-dark py-4 font-normal text-lg">Tasks in progress</h3>
               </div>
             </div>
             <div>
               <div class="text-center px-6 py-4">
-                <div class="py-8">
-                  <div class="mb-4">
-                    <svg class="inline-block fill-current text-grey h-16 w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                      <path d="M11.933 13.069s7.059-5.094 6.276-10.924a.465.465 0 0 0-.112-.268.436.436 0 0 0-.263-.115C12.137.961 7.16 8.184 7.16 8.184c-4.318-.517-4.004.344-5.974 5.076-.377.902.234 1.213.904.959l2.148-.811 2.59 2.648-.793 2.199c-.248.686.055 1.311.938.926 4.624-2.016 5.466-1.694 4.96-6.112zm1.009-5.916a1.594 1.594 0 0 1 0-2.217 1.509 1.509 0 0 1 2.166 0 1.594 1.594 0 0 1 0 2.217 1.509 1.509 0 0 1-2.166 0z"
-                      />
-                    </svg>
-                  </div>
-                  <p class="text-2xl text-grey-darker font-medium mb-4">No buys or sells yet</p>
-                  <p class="text-grey max-w-xs mx-auto mb-6">Second div</p>
-                  <div>
-                    <button type="button" class="bg-blue hover:bg-blue-dark text-white border border-blue-dark rounded px-6 py-4">Buy now</button>
-                  </div>
+
+                <div class="shadow w-full bg-grey-light">
+                  <div class="bg-blue text-xs leading-none py-3 text-center text-white" style="width: 25%">Create an admin panel 25%</div>
                 </div>
+                
+                <div class="shadow w-full bg-grey-light mt-2">
+                  <div class="bg-teal text-xs leading-none py-3 text-center text-white" style="width: 35%">Design a logo 35%</div>
+                </div>
+                  
+                <div class="shadow w-full bg-grey-light mt-2">
+                  <div class="bg-orange text-xs leading-none py-3 text-center text-white" style="width: 40%">Integrate to laravel 40%</div>
+                </div>
+                  
+                <div class="shadow w-full bg-grey-light mt-2">
+                  <div class="bg-red text-xs leading-none py-3 text-center text-white" style="width: 50%">Create Vue version 50%</div>
+                </div>
+                  
+                <div class="shadow w-full bg-grey-light mt-2">
+                  <div class="bg-red text-xs leading-none py-3 text-center text-white" style="width: 65%">Test admin panel 65%</div>
+                </div>
+                  
+                <div class="shadow w-full bg-grey-light mt-2">
+                  <div class="bg-red text-xs leading-none py-3 text-center text-white" style="width: 75%">Make responsive panel 75%</div>
+                </div>
+                  
+                <div class="shadow w-full bg-grey-light mt-2">
+                  <div class="bg-red text-xs leading-none py-3 text-center text-white" style="width: 95%">Fix responseive issues 95%</div>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -483,6 +386,17 @@
   <!-- /footer -->
 
   </div>
+
+  <!-- assets section starts here -->
+
+  <!-- theme level js -->
+  <script src="src/jquery-3.3.1.min.js"></script>
+  <script src="theme.js"></script>
+
+  <!-- page level js starts here -->
+
+  <!-- page level js ends here -->
+
 </body>
 
 </html>
