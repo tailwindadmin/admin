@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Css -->
   <link rel="stylesheet" href="./dist/styles.css">
+  <link rel="stylesheet" href="./dist/all.css">
   <title>Dashboard | Tailwind Admin</title>
 </head>
 <body>
@@ -13,13 +14,10 @@
 
     <div class="min-h-screen flex flex-col">
 
-      <header class="bg-red">
+      <header class="bg-nav">
           <div class="flex justify-between">
               <div class="p-1 mx-3">
-                  <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
-                    />
-                  </svg>
+                  <h1 class="text-white">Logo</h1>
               </div>
               <div class="p-1">
                   <a href="#">Hii</a>
@@ -28,11 +26,19 @@
       </header>
 
       <div class="flex flex-1">
-        <aside class="bg-nav w-1/2 md:w-1/6 lg:w-1/6 p-1 hidden md:block lg:block">
-          Sidebar
+        <aside class="bg-side-nav w-1/2 md:w-1/6 lg:w-1/6 p-1 hidden md:block lg:block">
+          <div class="flex">
+              
+          </div>
+          <ul class="list-reset">
+            <li>Lorem ipsum dolor|</li>
+            <li>Assumenda, quia |</li>
+            <li>Quidem, ipsam illum |</li>
+          </ul>
+        
         </aside>
 
-        <main class="bg-purple flex-1 p-3">
+        <main class="bg-white flex-1 p-3">
           
           <div class="flex flex-col md:flex-row lg:flex-row">
             <div class="bg-grey-light mb-2 p-2 md:w-1/4 mx-2">
