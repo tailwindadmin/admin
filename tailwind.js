@@ -135,7 +135,15 @@ let colors = {
   'nav-item': '#626b7a',
   'light-border' : '#dfe4e6',
   'white-medium': '#FAFAFA',
-  'white-medium-dark': '#E5E9EB'
+  'white-medium-dark': '#E5E9EB',
+  'red-vibrant': '#e46050',
+  'red-vibrant-dark': '#d64230',
+  'primary': '#51BE99',
+  'primary-dark': '#0e5f43',
+  'warning': '#f4ab43',
+  'warning-dark': '#c37c16',
+  'black-dark': '#272634',
+  'black-darkest': '#141418',
 }
 
 module.exports = {
