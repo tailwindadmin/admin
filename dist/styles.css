@@ -695,6 +695,10 @@ button,
   background-color: #f8fafc;
 }
 
+.bg-grey-mid-light {
+  background-color: #f3f3f4;
+}
+
 .bg-white {
   background-color: #fff;
 }
@@ -956,7 +960,11 @@ button,
 }
 
 .bg-nav {
-  background-color: #2f4050;
+  background-color: #3f495e;
+}
+
+.bg-side-nav {
+  background-color: #ecf0f1;
 }
 
 .hover\:bg-transparent:hover {
@@ -993,6 +1001,10 @@ button,
 
 .hover\:bg-grey-lightest:hover {
   background-color: #f8fafc;
+}
+
+.hover\:bg-grey-mid-light:hover {
+  background-color: #f3f3f4;
 }
 
 .hover\:bg-white:hover {
@@ -1256,7 +1268,11 @@ button,
 }
 
 .hover\:bg-nav:hover {
-  background-color: #2f4050;
+  background-color: #3f495e;
+}
+
+.hover\:bg-side-nav:hover {
+  background-color: #ecf0f1;
 }
 
 .bg-bottom {
@@ -1357,6 +1373,10 @@ button,
 
 .border-grey-lightest {
   border-color: #f8fafc;
+}
+
+.border-grey-mid-light {
+  border-color: #f3f3f4;
 }
 
 .border-white {
@@ -1620,7 +1640,11 @@ button,
 }
 
 .border-nav {
-  border-color: #2f4050;
+  border-color: #3f495e;
+}
+
+.border-side-nav {
+  border-color: #ecf0f1;
 }
 
 .hover\:border-transparent:hover {
@@ -1657,6 +1681,10 @@ button,
 
 .hover\:border-grey-lightest:hover {
   border-color: #f8fafc;
+}
+
+.hover\:border-grey-mid-light:hover {
+  border-color: #f3f3f4;
 }
 
 .hover\:border-white:hover {
@@ -1920,7 +1948,11 @@ button,
 }
 
 .hover\:border-nav:hover {
-  border-color: #2f4050;
+  border-color: #3f495e;
+}
+
+.hover\:border-side-nav:hover {
+  border-color: #ecf0f1;
 }
 
 .rounded-none {
@@ -3667,6 +3699,10 @@ button,
   color: #f8fafc;
 }
 
+.text-grey-mid-light {
+  color: #f3f3f4;
+}
+
 .text-white {
   color: #fff;
 }
@@ -3928,7 +3964,11 @@ button,
 }
 
 .text-nav {
-  color: #2f4050;
+  color: #3f495e;
+}
+
+.text-side-nav {
+  color: #ecf0f1;
 }
 
 .hover\:text-transparent:hover {
@@ -3965,6 +4005,10 @@ button,
 
 .hover\:text-grey-lightest:hover {
   color: #f8fafc;
+}
+
+.hover\:text-grey-mid-light:hover {
+  color: #f3f3f4;
 }
 
 .hover\:text-white:hover {
@@ -4228,7 +4272,11 @@ button,
 }
 
 .hover\:text-nav:hover {
-  color: #2f4050;
+  color: #3f495e;
+}
+
+.hover\:text-side-nav:hover {
+  color: #ecf0f1;
 }
 
 .text-xs {
@@ -4671,6 +4719,10 @@ button,
     background-color: #f8fafc;
   }
 
+  .sm\:bg-grey-mid-light {
+    background-color: #f3f3f4;
+  }
+
   .sm\:bg-white {
     background-color: #fff;
   }
@@ -4932,7 +4984,11 @@ button,
   }
 
   .sm\:bg-nav {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .sm\:bg-side-nav {
+    background-color: #ecf0f1;
   }
 
   .sm\:hover\:bg-transparent:hover {
@@ -4969,6 +5025,10 @@ button,
 
   .sm\:hover\:bg-grey-lightest:hover {
     background-color: #f8fafc;
+  }
+
+  .sm\:hover\:bg-grey-mid-light:hover {
+    background-color: #f3f3f4;
   }
 
   .sm\:hover\:bg-white:hover {
@@ -5232,7 +5292,11 @@ button,
   }
 
   .sm\:hover\:bg-nav:hover {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .sm\:hover\:bg-side-nav:hover {
+    background-color: #ecf0f1;
   }
 
   .sm\:bg-bottom {
@@ -5333,6 +5397,10 @@ button,
 
   .sm\:border-grey-lightest {
     border-color: #f8fafc;
+  }
+
+  .sm\:border-grey-mid-light {
+    border-color: #f3f3f4;
   }
 
   .sm\:border-white {
@@ -5596,7 +5664,11 @@ button,
   }
 
   .sm\:border-nav {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .sm\:border-side-nav {
+    border-color: #ecf0f1;
   }
 
   .sm\:hover\:border-transparent:hover {
@@ -5633,6 +5705,10 @@ button,
 
   .sm\:hover\:border-grey-lightest:hover {
     border-color: #f8fafc;
+  }
+
+  .sm\:hover\:border-grey-mid-light:hover {
+    border-color: #f3f3f4;
   }
 
   .sm\:hover\:border-white:hover {
@@ -5896,7 +5972,11 @@ button,
   }
 
   .sm\:hover\:border-nav:hover {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .sm\:hover\:border-side-nav:hover {
+    border-color: #ecf0f1;
   }
 
   .sm\:rounded-none {
@@ -7635,6 +7715,10 @@ button,
     color: #f8fafc;
   }
 
+  .sm\:text-grey-mid-light {
+    color: #f3f3f4;
+  }
+
   .sm\:text-white {
     color: #fff;
   }
@@ -7896,7 +7980,11 @@ button,
   }
 
   .sm\:text-nav {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .sm\:text-side-nav {
+    color: #ecf0f1;
   }
 
   .sm\:hover\:text-transparent:hover {
@@ -7933,6 +8021,10 @@ button,
 
   .sm\:hover\:text-grey-lightest:hover {
     color: #f8fafc;
+  }
+
+  .sm\:hover\:text-grey-mid-light:hover {
+    color: #f3f3f4;
   }
 
   .sm\:hover\:text-white:hover {
@@ -8196,7 +8288,11 @@ button,
   }
 
   .sm\:hover\:text-nav:hover {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .sm\:hover\:text-side-nav:hover {
+    color: #ecf0f1;
   }
 
   .sm\:text-xs {
@@ -8612,6 +8708,10 @@ button,
     background-color: #f8fafc;
   }
 
+  .md\:bg-grey-mid-light {
+    background-color: #f3f3f4;
+  }
+
   .md\:bg-white {
     background-color: #fff;
   }
@@ -8873,7 +8973,11 @@ button,
   }
 
   .md\:bg-nav {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .md\:bg-side-nav {
+    background-color: #ecf0f1;
   }
 
   .md\:hover\:bg-transparent:hover {
@@ -8910,6 +9014,10 @@ button,
 
   .md\:hover\:bg-grey-lightest:hover {
     background-color: #f8fafc;
+  }
+
+  .md\:hover\:bg-grey-mid-light:hover {
+    background-color: #f3f3f4;
   }
 
   .md\:hover\:bg-white:hover {
@@ -9173,7 +9281,11 @@ button,
   }
 
   .md\:hover\:bg-nav:hover {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .md\:hover\:bg-side-nav:hover {
+    background-color: #ecf0f1;
   }
 
   .md\:bg-bottom {
@@ -9274,6 +9386,10 @@ button,
 
   .md\:border-grey-lightest {
     border-color: #f8fafc;
+  }
+
+  .md\:border-grey-mid-light {
+    border-color: #f3f3f4;
   }
 
   .md\:border-white {
@@ -9537,7 +9653,11 @@ button,
   }
 
   .md\:border-nav {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .md\:border-side-nav {
+    border-color: #ecf0f1;
   }
 
   .md\:hover\:border-transparent:hover {
@@ -9574,6 +9694,10 @@ button,
 
   .md\:hover\:border-grey-lightest:hover {
     border-color: #f8fafc;
+  }
+
+  .md\:hover\:border-grey-mid-light:hover {
+    border-color: #f3f3f4;
   }
 
   .md\:hover\:border-white:hover {
@@ -9837,7 +9961,11 @@ button,
   }
 
   .md\:hover\:border-nav:hover {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .md\:hover\:border-side-nav:hover {
+    border-color: #ecf0f1;
   }
 
   .md\:rounded-none {
@@ -11576,6 +11704,10 @@ button,
     color: #f8fafc;
   }
 
+  .md\:text-grey-mid-light {
+    color: #f3f3f4;
+  }
+
   .md\:text-white {
     color: #fff;
   }
@@ -11837,7 +11969,11 @@ button,
   }
 
   .md\:text-nav {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .md\:text-side-nav {
+    color: #ecf0f1;
   }
 
   .md\:hover\:text-transparent:hover {
@@ -11874,6 +12010,10 @@ button,
 
   .md\:hover\:text-grey-lightest:hover {
     color: #f8fafc;
+  }
+
+  .md\:hover\:text-grey-mid-light:hover {
+    color: #f3f3f4;
   }
 
   .md\:hover\:text-white:hover {
@@ -12137,7 +12277,11 @@ button,
   }
 
   .md\:hover\:text-nav:hover {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .md\:hover\:text-side-nav:hover {
+    color: #ecf0f1;
   }
 
   .md\:text-xs {
@@ -12553,6 +12697,10 @@ button,
     background-color: #f8fafc;
   }
 
+  .lg\:bg-grey-mid-light {
+    background-color: #f3f3f4;
+  }
+
   .lg\:bg-white {
     background-color: #fff;
   }
@@ -12814,7 +12962,11 @@ button,
   }
 
   .lg\:bg-nav {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .lg\:bg-side-nav {
+    background-color: #ecf0f1;
   }
 
   .lg\:hover\:bg-transparent:hover {
@@ -12851,6 +13003,10 @@ button,
 
   .lg\:hover\:bg-grey-lightest:hover {
     background-color: #f8fafc;
+  }
+
+  .lg\:hover\:bg-grey-mid-light:hover {
+    background-color: #f3f3f4;
   }
 
   .lg\:hover\:bg-white:hover {
@@ -13114,7 +13270,11 @@ button,
   }
 
   .lg\:hover\:bg-nav:hover {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .lg\:hover\:bg-side-nav:hover {
+    background-color: #ecf0f1;
   }
 
   .lg\:bg-bottom {
@@ -13215,6 +13375,10 @@ button,
 
   .lg\:border-grey-lightest {
     border-color: #f8fafc;
+  }
+
+  .lg\:border-grey-mid-light {
+    border-color: #f3f3f4;
   }
 
   .lg\:border-white {
@@ -13478,7 +13642,11 @@ button,
   }
 
   .lg\:border-nav {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .lg\:border-side-nav {
+    border-color: #ecf0f1;
   }
 
   .lg\:hover\:border-transparent:hover {
@@ -13515,6 +13683,10 @@ button,
 
   .lg\:hover\:border-grey-lightest:hover {
     border-color: #f8fafc;
+  }
+
+  .lg\:hover\:border-grey-mid-light:hover {
+    border-color: #f3f3f4;
   }
 
   .lg\:hover\:border-white:hover {
@@ -13778,7 +13950,11 @@ button,
   }
 
   .lg\:hover\:border-nav:hover {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .lg\:hover\:border-side-nav:hover {
+    border-color: #ecf0f1;
   }
 
   .lg\:rounded-none {
@@ -15517,6 +15693,10 @@ button,
     color: #f8fafc;
   }
 
+  .lg\:text-grey-mid-light {
+    color: #f3f3f4;
+  }
+
   .lg\:text-white {
     color: #fff;
   }
@@ -15778,7 +15958,11 @@ button,
   }
 
   .lg\:text-nav {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .lg\:text-side-nav {
+    color: #ecf0f1;
   }
 
   .lg\:hover\:text-transparent:hover {
@@ -15815,6 +15999,10 @@ button,
 
   .lg\:hover\:text-grey-lightest:hover {
     color: #f8fafc;
+  }
+
+  .lg\:hover\:text-grey-mid-light:hover {
+    color: #f3f3f4;
   }
 
   .lg\:hover\:text-white:hover {
@@ -16078,7 +16266,11 @@ button,
   }
 
   .lg\:hover\:text-nav:hover {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .lg\:hover\:text-side-nav:hover {
+    color: #ecf0f1;
   }
 
   .lg\:text-xs {
@@ -16494,6 +16686,10 @@ button,
     background-color: #f8fafc;
   }
 
+  .xl\:bg-grey-mid-light {
+    background-color: #f3f3f4;
+  }
+
   .xl\:bg-white {
     background-color: #fff;
   }
@@ -16755,7 +16951,11 @@ button,
   }
 
   .xl\:bg-nav {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .xl\:bg-side-nav {
+    background-color: #ecf0f1;
   }
 
   .xl\:hover\:bg-transparent:hover {
@@ -16792,6 +16992,10 @@ button,
 
   .xl\:hover\:bg-grey-lightest:hover {
     background-color: #f8fafc;
+  }
+
+  .xl\:hover\:bg-grey-mid-light:hover {
+    background-color: #f3f3f4;
   }
 
   .xl\:hover\:bg-white:hover {
@@ -17055,7 +17259,11 @@ button,
   }
 
   .xl\:hover\:bg-nav:hover {
-    background-color: #2f4050;
+    background-color: #3f495e;
+  }
+
+  .xl\:hover\:bg-side-nav:hover {
+    background-color: #ecf0f1;
   }
 
   .xl\:bg-bottom {
@@ -17156,6 +17364,10 @@ button,
 
   .xl\:border-grey-lightest {
     border-color: #f8fafc;
+  }
+
+  .xl\:border-grey-mid-light {
+    border-color: #f3f3f4;
   }
 
   .xl\:border-white {
@@ -17419,7 +17631,11 @@ button,
   }
 
   .xl\:border-nav {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .xl\:border-side-nav {
+    border-color: #ecf0f1;
   }
 
   .xl\:hover\:border-transparent:hover {
@@ -17456,6 +17672,10 @@ button,
 
   .xl\:hover\:border-grey-lightest:hover {
     border-color: #f8fafc;
+  }
+
+  .xl\:hover\:border-grey-mid-light:hover {
+    border-color: #f3f3f4;
   }
 
   .xl\:hover\:border-white:hover {
@@ -17719,7 +17939,11 @@ button,
   }
 
   .xl\:hover\:border-nav:hover {
-    border-color: #2f4050;
+    border-color: #3f495e;
+  }
+
+  .xl\:hover\:border-side-nav:hover {
+    border-color: #ecf0f1;
   }
 
   .xl\:rounded-none {
@@ -19458,6 +19682,10 @@ button,
     color: #f8fafc;
   }
 
+  .xl\:text-grey-mid-light {
+    color: #f3f3f4;
+  }
+
   .xl\:text-white {
     color: #fff;
   }
@@ -19719,7 +19947,11 @@ button,
   }
 
   .xl\:text-nav {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .xl\:text-side-nav {
+    color: #ecf0f1;
   }
 
   .xl\:hover\:text-transparent:hover {
@@ -19756,6 +19988,10 @@ button,
 
   .xl\:hover\:text-grey-lightest:hover {
     color: #f8fafc;
+  }
+
+  .xl\:hover\:text-grey-mid-light:hover {
+    color: #f3f3f4;
   }
 
   .xl\:hover\:text-white:hover {
@@ -20019,7 +20255,11 @@ button,
   }
 
   .xl\:hover\:text-nav:hover {
-    color: #2f4050;
+    color: #3f495e;
+  }
+
+  .xl\:hover\:text-side-nav:hover {
+    color: #ecf0f1;
   }
 
   .xl\:text-xs {
