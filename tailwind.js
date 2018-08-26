@@ -132,6 +132,8 @@ let colors = {
 
   'nav': '#3F495E',
   'side-nav': '#ECF0F1',
+  'nav-item': '#626b7a',
+  'light-border' : '#dfe4e6'
 }
 
 module.exports = {

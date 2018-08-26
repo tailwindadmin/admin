@@ -7,6 +7,7 @@
   <!-- Css -->
   <link rel="stylesheet" href="./dist/styles.css">
   <link rel="stylesheet" href="./dist/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i" rel="stylesheet">
   <title>Dashboard | Tailwind Admin</title>
 </head>
 <body>
@@ -30,10 +31,28 @@
           <div class="flex">
               
           </div>
-          <ul class="list-reset">
-            <li>Lorem ipsum dolor|</li>
-            <li>Assumenda, quia |</li>
-            <li>Quidem, ipsam illum |</li>
+          <ul class="list-reset ">
+            <li class="border-b border-light-border p-3">
+              <a href="#" class="font-hairline hover:font-normal text-nav-item no-underline">
+                <i class="fas fa-tachometer-alt float-left mx-2"></i>
+                  Dashboard
+                <span><i class="fa fa-angle-right float-right"></i></span>
+              </a>
+            </li>
+            <li class="border-b border-light-border p-3">
+              <a href="#" class="text-nav-item no-underline">
+                <i class="fab fa-wpforms float-left mx-2"></i>
+                  Forms
+                  <span><i class="fa fa-angle-right float-right"></i></span>
+              </a>
+            </li>
+            <li class="border-b border-light-border p-3">
+              <a href="#" class="text-nav-item no-underline">
+                <i class="far fa-file float-left mx-2"></i>
+                  Pages
+                  <span><i class="fa fa-angle-right float-right"></i></span>
+              </a>
+            </li>
           </ul>
         
         </aside>
@@ -57,12 +76,11 @@
               <p>First Element</p>
             </div>
           </div>
-
         </main>
       </div>
 
-      <footer class="bg-grey-darkest text-white">
-        &copy; My Design
+      <footer class="bg-grey-darkest text-white p-2">
+        <div class="flex flex-1 mx-auto">&copy; My Design</div>
       </footer>
 
 
