@@ -955,6 +955,10 @@ button,
   background-color: #ffebef;
 }
 
+.bg-nav {
+  background-color: #2f4050;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1249,6 +1253,10 @@ button,
 
 .hover\:bg-pink-lightest:hover {
   background-color: #ffebef;
+}
+
+.hover\:bg-nav:hover {
+  background-color: #2f4050;
 }
 
 .bg-bottom {
@@ -1611,6 +1619,10 @@ button,
   border-color: #ffebef;
 }
 
+.border-nav {
+  border-color: #2f4050;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -1905,6 +1917,10 @@ button,
 
 .hover\:border-pink-lightest:hover {
   border-color: #ffebef;
+}
+
+.hover\:border-nav:hover {
+  border-color: #2f4050;
 }
 
 .rounded-none {
@@ -3911,6 +3927,10 @@ button,
   color: #ffebef;
 }
 
+.text-nav {
+  color: #2f4050;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -4205,6 +4225,10 @@ button,
 
 .hover\:text-pink-lightest:hover {
   color: #ffebef;
+}
+
+.hover\:text-nav:hover {
+  color: #2f4050;
 }
 
 .text-xs {
@@ -4907,6 +4931,10 @@ button,
     background-color: #ffebef;
   }
 
+  .sm\:bg-nav {
+    background-color: #2f4050;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -5201,6 +5229,10 @@ button,
 
   .sm\:hover\:bg-pink-lightest:hover {
     background-color: #ffebef;
+  }
+
+  .sm\:hover\:bg-nav:hover {
+    background-color: #2f4050;
   }
 
   .sm\:bg-bottom {
@@ -5563,6 +5595,10 @@ button,
     border-color: #ffebef;
   }
 
+  .sm\:border-nav {
+    border-color: #2f4050;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -5857,6 +5893,10 @@ button,
 
   .sm\:hover\:border-pink-lightest:hover {
     border-color: #ffebef;
+  }
+
+  .sm\:hover\:border-nav:hover {
+    border-color: #2f4050;
   }
 
   .sm\:rounded-none {
@@ -7855,6 +7895,10 @@ button,
     color: #ffebef;
   }
 
+  .sm\:text-nav {
+    color: #2f4050;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -8149,6 +8193,10 @@ button,
 
   .sm\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .sm\:hover\:text-nav:hover {
+    color: #2f4050;
   }
 
   .sm\:text-xs {
@@ -8824,6 +8872,10 @@ button,
     background-color: #ffebef;
   }
 
+  .md\:bg-nav {
+    background-color: #2f4050;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -9118,6 +9170,10 @@ button,
 
   .md\:hover\:bg-pink-lightest:hover {
     background-color: #ffebef;
+  }
+
+  .md\:hover\:bg-nav:hover {
+    background-color: #2f4050;
   }
 
   .md\:bg-bottom {
@@ -9480,6 +9536,10 @@ button,
     border-color: #ffebef;
   }
 
+  .md\:border-nav {
+    border-color: #2f4050;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -9774,6 +9834,10 @@ button,
 
   .md\:hover\:border-pink-lightest:hover {
     border-color: #ffebef;
+  }
+
+  .md\:hover\:border-nav:hover {
+    border-color: #2f4050;
   }
 
   .md\:rounded-none {
@@ -11772,6 +11836,10 @@ button,
     color: #ffebef;
   }
 
+  .md\:text-nav {
+    color: #2f4050;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -12066,6 +12134,10 @@ button,
 
   .md\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .md\:hover\:text-nav:hover {
+    color: #2f4050;
   }
 
   .md\:text-xs {
@@ -12741,6 +12813,10 @@ button,
     background-color: #ffebef;
   }
 
+  .lg\:bg-nav {
+    background-color: #2f4050;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -13035,6 +13111,10 @@ button,
 
   .lg\:hover\:bg-pink-lightest:hover {
     background-color: #ffebef;
+  }
+
+  .lg\:hover\:bg-nav:hover {
+    background-color: #2f4050;
   }
 
   .lg\:bg-bottom {
@@ -13397,6 +13477,10 @@ button,
     border-color: #ffebef;
   }
 
+  .lg\:border-nav {
+    border-color: #2f4050;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -13691,6 +13775,10 @@ button,
 
   .lg\:hover\:border-pink-lightest:hover {
     border-color: #ffebef;
+  }
+
+  .lg\:hover\:border-nav:hover {
+    border-color: #2f4050;
   }
 
   .lg\:rounded-none {
@@ -15689,6 +15777,10 @@ button,
     color: #ffebef;
   }
 
+  .lg\:text-nav {
+    color: #2f4050;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -15983,6 +16075,10 @@ button,
 
   .lg\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .lg\:hover\:text-nav:hover {
+    color: #2f4050;
   }
 
   .lg\:text-xs {
@@ -16658,6 +16754,10 @@ button,
     background-color: #ffebef;
   }
 
+  .xl\:bg-nav {
+    background-color: #2f4050;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -16952,6 +17052,10 @@ button,
 
   .xl\:hover\:bg-pink-lightest:hover {
     background-color: #ffebef;
+  }
+
+  .xl\:hover\:bg-nav:hover {
+    background-color: #2f4050;
   }
 
   .xl\:bg-bottom {
@@ -17314,6 +17418,10 @@ button,
     border-color: #ffebef;
   }
 
+  .xl\:border-nav {
+    border-color: #2f4050;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -17608,6 +17716,10 @@ button,
 
   .xl\:hover\:border-pink-lightest:hover {
     border-color: #ffebef;
+  }
+
+  .xl\:hover\:border-nav:hover {
+    border-color: #2f4050;
   }
 
   .xl\:rounded-none {
@@ -19606,6 +19718,10 @@ button,
     color: #ffebef;
   }
 
+  .xl\:text-nav {
+    color: #2f4050;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -19900,6 +20016,10 @@ button,
 
   .xl\:hover\:text-pink-lightest:hover {
     color: #ffebef;
+  }
+
+  .xl\:hover\:text-nav:hover {
+    color: #2f4050;
   }
 
   .xl\:text-xs {
