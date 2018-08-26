@@ -144,6 +144,10 @@ let colors = {
   'warning-dark': '#c37c16',
   'black-dark': '#272634',
   'black-darkest': '#141418',
+  'info': '#52bcdc',
+  'info-dark': '#2cadd4',
+  'success': '#72b159',
+  'success-dark': '#5D9547',
 }
 
 module.exports = {
