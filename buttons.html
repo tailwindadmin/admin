@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Css -->
+    <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="stylesheet" href="./dist/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i" rel="stylesheet">
+    <title>Buttons | Tailwind Admin</title>
+</head>
+
+<body>
+<!--Container -->
+<div class="mx-auto bg-grey-lightest">
+    <!--Screen-->
+    <div class="min-h-screen flex flex-col">
+        <!--Header Section Starts Here-->
+        <header class="bg-nav">
+            <div class="flex justify-between">
+                <div class="p-1 mx-3">
+                    <h1 class="text-white">Logo</h1>
+                </div>
+                <div class="p-1">
+                    <a href="#">Hii</a>
+                </div>
+            </div>
+        </header>
+        <!--/Header-->
+
+        <div class="flex flex-1">
+            <!--Sidebar-->
+            <aside class="bg-side-nav w-1/2 md:w-1/6 lg:w-1/6 border-r border-side-nav hidden md:block lg:block">
+                <div class="flex">
+
+                </div>
+                <ul class="list-reset flex flex-col">
+                    <li class=" w-full h-full py-3 px-2 border-b border-light-border ">
+                        <a href="index.html"
+                           class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                            <i class="fas fa-tachometer-alt float-left mx-2"></i>
+                            Dashboard
+                            <span><i class="fas fa-angle-right float-right"></i></span>
+                        </a>
+                    </li>
+                    <li class="w-full h-full py-3 px-2 border-b border-light-border">
+                        <a href="forms.html"
+                           class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                            <i class="fab fa-wpforms float-left mx-2"></i>
+                            Forms
+                            <span><i class="fa fa-angle-right float-right"></i></span>
+                        </a>
+                    </li>
+                    <li class="w-full h-full py-3 px-2 border-b border-light-border bg-white">
+                        <a href="buttons.html"
+                           class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                            <i class="fab fa-wpforms float-left mx-2"></i>
+                            Buttons
+                            <span><i class="fa fa-angle-right float-right"></i></span>
+                        </a>
+                    </li>
+                    <li class="w-full h-full py-3 px-2">
+                        <a href="#"
+                           class="font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                            <i class="far fa-file float-left mx-2"></i>
+                            Pages
+                            <span><i class="fa fa-angle-down float-right"></i></span>
+                        </a>
+                        <ul class="list-reset -mx-2 bg-white-medium-dark">
+                            <li class="border-t mt-2 border-light-border w-full h-full px-2 py-3">
+                                <a href="#"
+                                   class="mx-4 font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                                    Login Page
+                                    <span><i class="fa fa-angle-right float-right"></i></span>
+                                </a>
+                            </li>
+                            <li class="border-t border-light-border w-full h-full px-2 py-3">
+                                <a href="#"
+                                   class="mx-4 font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                                    Register Page
+                                    <span><i class="fa fa-angle-right float-right"></i></span>
+                                </a>
+                            </li>
+                            <li class="border-t border-light-border w-full h-full px-2 py-3">
+                                <a href="#"
+                                   class="mx-4 font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
+                                    404 Page
+                                    <span><i class="fa fa-angle-right float-right"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </aside>
+            <!--/Sidebar-->
+            <!--Main-->
+            <main class="bg-white-medium flex-1 p-3">
+
+                <div class="flex flex-col">
+                    <!-- Card Sextion Starts Here -->
+                    <div class="flex flex-1  flex-col md:flex-row lg:flex-row mx-2">
+                        <!--Outline Buttons form-->
+                        <div class="mb-2 border-solid border-grey-light rounded border shadow-sm w-full md:w-1/2 lg:w-1/2">
+                            <div class="bg-grey-lighter px-2 py-3 border-solid border-grey-light border-b">
+                                Outline Buttons
+                            </div>
+                            <div class="p-3">
+                                <button class="bg-transparent hover:bg-blue text-blue-dark font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded">
+                                    Button
+                                </button>
+                                <button class="bg-transparent hover:bg-green text-green-dark font-semibold hover:text-white py-2 px-4 border border-green hover:border-transparent rounded">
+                                    Button
+                                </button>
+                                <button class="bg-transparent hover:bg-orange text-orange-dark font-semibold hover:text-white py-2 px-4 border border-orange hover:border-transparent rounded">
+                                    Button
+                                </button>
+                                <button class="bg-transparent hover:bg-red text-red-dark font-semibold hover:text-white py-2 px-4 border border-red hover:border-transparent rounded">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <!--/Outline Buttons -->
+
+                        <!--Solid Buttons-->
+                        <div class="mb-2 mx-2 border-solid border-grey-light rounded border shadow-sm w-full md:w-1/2 lg:w-1/2">
+                            <div class="bg-grey-lighter px-2 py-3 border-solid border-grey-light border-b">
+                                Solid Buttons
+                            </div>
+                            <div class="p-3">
+                                <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded">
+                                    Button
+                                </button>
+                                <button class="bg-green hover:bg-green-dark text-white font-bold py-2 px-4 rounded">
+                                    Button
+                                </button>
+                                <button class="bg-orange hover:bg-orange-dark text-white font-bold py-2 px-4 rounded">
+                                    Button
+                                </button>
+                                <button class="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <!--/Solid Buttons-->
+                    </div>
+                    <!-- /Cards Section Ends Here -->
+
+                    <!--Card Section Starts Here-->
+                    <div class="flex flex-1  flex-col md:flex-row lg:flex-row mx-2">
+                        <!--Outline Buttons form-->
+                        <div class="mb-2 border-solid border-grey-light rounded border shadow-sm w-full md:w-1/2 lg:w-1/2">
+                            <div class="bg-grey-lighter px-2 py-3 border-solid border-grey-light border-b">
+                                Buttons Styles
+                            </div>
+                            <div class="p-3">
+                                <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded-full">
+                                    Button
+                                </button>
+                                <button class="bg-green hover:bg-green-dark text-white font-bold py-2 px-4 rounded-full">
+                                    Button
+                                </button>
+                                <button class="bg-orange hover:bg-orange-dark text-white font-bold py-2 px-4 rounded-full">
+                                    Button
+                                </button>
+                                <button class="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 rounded-full">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <!--/Outline Buttons -->
+
+                        <!--Solid Buttons-->
+                        <div class="mb-2 mx-2 border-solid border-grey-light rounded border shadow-sm w-full md:w-1/2 lg:w-1/2">
+                            <div class="bg-grey-lighter px-2 py-3 border-solid border-grey-light border-b">
+                                Button Bordered
+                            </div>
+                            <div class="p-3">
+                                <button class="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 border border-blue-darker rounded">
+                                    Button
+                                </button>
+                                <button class="bg-green hover:bg-green-dark text-white font-bold py-2 px-4 border border-green-darker rounded">
+                                    Button
+                                </button>
+                                <button class="bg-orange hover:bg-orange-dark text-white font-bold py-2 px-4 border border-orange-darker rounded">
+                                    Button
+                                </button>
+                                <button class="bg-red hover:bg-red-dark text-white font-bold py-2 px-4 border border-red-darker rounded">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <!--/Solid Buttons-->
+                    </div>
+                    <!--Card Section Ends Here-->
+                    <!--Card Section Starts Here-->
+                    <div class="flex flex-1  flex-col md:flex-row lg:flex-row mx-2">
+                        <!--Outline Buttons form-->
+                        <div class="mb-2 border-solid border-grey-light rounded border shadow-sm w-full md:w-1/2 lg:w-1/2">
+                            <div class="bg-grey-lighter px-2 py-3 border-solid border-grey-light border-b">
+                                Button Groups
+                            </div>
+                            <div class="p-3">
+                                <div class="inline-flex">
+                                    <button class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded-l">
+                                        Prev
+                                    </button>
+                                    <button class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded-r">
+                                        Next
+                                    </button>
+                                </div>
+
+                                <div class="inline-flex">
+                                    <button class="bg-teal-light hover:bg-teal text-teal-darkest font-bold py-2 px-4 rounded-l">
+                                        Prev
+                                    </button>
+                                    <button class="bg-teal-light hover:bg-teal text-teal-darkest font-bold py-2 px-4 rounded-r">
+                                        Next
+                                    </button>
+                                </div>
+
+
+                                <div class="inline-flex">
+                                    <button class="bg-red-light hover:bg-red text-red-darkest font-bold py-2 px-4 rounded-l">
+                                        Prev
+                                    </button>
+                                    <button class="bg-red-light hover:bg-red text-red-darkest font-bold py-2 px-4 rounded-r">
+                                        Next
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/Outline Buttons -->
+
+                        <!--Solid Buttons-->
+                        <div class="mb-2 mx-2 border-solid border-grey-light rounded border shadow-sm w-full md:w-1/2 lg:w-1/2">
+                            <div class="bg-grey-lighter px-2 py-3 border-solid border-grey-light border-b">
+                               Miscellaneous
+                            </div>
+                            <div class="p-3">
+                                <button class="bg-blue hover:bg-blue-light text-white font-bold py-2 px-4 border-b-4 border-blue-dark hover:border-blue rounded">
+                                   3D Button
+                                </button>
+                                <button class="bg-white hover:bg-grey-lightest text-grey-darkest font-semibold py-2 px-4 border border-grey-light rounded shadow">
+                                    Elevated Button
+                                </button>
+                                <button class="bg-grey-light hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
+                                    <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                                    <span>Download</span>
+                                </button>
+                                <button class="bg-blue text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed">
+                                    Button
+                                </button>
+                            </div>
+                        </div>
+                        <!--/Solid Buttons-->
+                    </div>
+                    <!--Card Section Ends Here-->
+                </div>
+            </main>
+            <!--/Main-->
+        </div>
+        <!--Footer-->
+        <footer class="bg-grey-darkest text-white p-2">
+            <div class="flex flex-1 mx-auto">&copy; My Design</div>
+        </footer>
+        <!--/footer-->
+
+    </div>
+
+</div>
+</body>
+
+</html>
