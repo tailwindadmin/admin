@@ -7,3 +7,13 @@ function sidebarToggle() {
         sidebar.style.display = "none";
     }
 }
+
+var profileDropdown = document.getElementById('ProfileDropDown');
+
+function profileToggle() {
+    if (profileDropdown.style.display === "none") {
+        profileDropdown.style.display = "block";
+    } else {
+        profileDropdown.style.display = "none";
+    }
+}
