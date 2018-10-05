@@ -2,7 +2,9 @@
 
 Super simple admin panel using [Tailwind CSS](https://tailwindcss.com).
 
-To get started, clone the project and install the dependencies:
+To get started, clone or download the project, rest is self explanatory.
+
+To develop or contribute in this project.
 
 ```
 # Using npm
@@ -24,8 +26,8 @@ npm run watch-poll
 
 Webpack will watch `/src/styles.css` and `/tailwind.js` and rebuild your stylesheet on every change.
 
-You can play around with `/index.html` to see the effects of your changes.
-
 ## Contributing
 
 We'd love a PR!
+
+### Please report any issue or suggestions in issue tracker, all issues or suggestions will be promptly addressed.
