@@ -12,4 +12,9 @@ Then Open index.html.
 
 ![Image of Yaktocat](dist/images/login.png)
 
-### Please report any issue or suggestions in issue tracker, all issues or suggestions will be promptly addressed.
+### Please report any issue or suggestions in issue tracker, all issues or suggestions will be promptly addressed. We whould love a pull request.
+
+
+## TODO:
+ * Modal Popups
+ * Animation
