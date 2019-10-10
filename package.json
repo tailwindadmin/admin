@@ -12,7 +12,7 @@
         "postcss": "^6.0.14",
         "postcss-loader": "^2.0.8",
         "style-loader": "^0.19.0",
-        "tailwindcss": "^0.5.1",
+        "tailwindcss": "^1.0",
         "webpack": "^3.8.1"
     },
     "dependencies": {

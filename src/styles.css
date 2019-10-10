@@ -1,15 +1,15 @@
-@tailwind preflight;
+@tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
 
 .main-nav {
-    @apply flex items-center .justify-between flex-wrap .bg-grey-darkest .p-4 .pin; 
+    @apply flex items-center .justify-between flex-wrap .bg-grey-darkest .p-4 .inset-0;
 }
 
 .main-logo {
-    @apply block flex items-center flex-no-shrink text-white;
+    @apply block flex items-center flex-shrink-0 text-white;
 }
 
 .menu-item {
