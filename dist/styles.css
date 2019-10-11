@@ -11970,6 +11970,15 @@ th {
   color: #606f7b;
 }
 
+html{
+  line-height: normal;
+}
+
+h1{
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
