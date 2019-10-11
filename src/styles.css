@@ -15,3 +15,10 @@
 .menu-item {
     @apply no-underline block p-4 text-grey-darker;
 }
+
+html{
+    line-height: normal;
+}
+h1{
+    @apply text-xl font-semibold;
+}
