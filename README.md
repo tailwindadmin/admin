@@ -2,6 +2,10 @@
 
 Super simple admin panel using [Tailwind CSS](https://tailwindcss.com).
 
+## Note
+For Tailwind CSS version > 1.0
+Please use 1.0.0 branch
+
 To get started, clone or download the project
 Then Open index.html.
 
@@ -12,7 +16,7 @@ Then Open index.html.
 
 ![Image of Yaktocat](dist/images/login.png)
 
-### Please report any issue or suggestions in issue tracker, all issues or suggestions will be promptly addressed. We whould love a pull request.
+### Please report any issue or suggestions in issue tracker, all issues or suggestions will be promptly addressed. We would love a pull request.
 
 
 ## TODO:
