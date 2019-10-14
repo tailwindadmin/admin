@@ -3,7 +3,7 @@
 Super simple admin panel using [Tailwind CSS](https://tailwindcss.com).
 
 ## Note
-For Tailwind CSS version > 1.0
+For Tailwind CSS version < 1.0
 Please use 1.0.0 branch
 
 To get started, clone or download the project
