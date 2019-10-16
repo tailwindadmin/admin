@@ -22,3 +22,4 @@ Then Open index.html.
 ## TODO:
  * Modal Popups
  * Animation
+ * Vue JS based template
