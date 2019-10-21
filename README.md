@@ -22,4 +22,7 @@ Then Open index.html.
 ## TODO:
  * Modal Popups
  * Animation
- * Vue JS based template
+
+## IN PROGRESS:
+ * Vue Js based admin panel template
+ 
