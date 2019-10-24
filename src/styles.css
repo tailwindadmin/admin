@@ -4,6 +4,7 @@
 
 @tailwind utilities;
 
+
 .main-nav {
     @apply flex items-center .justify-between flex-wrap .bg-grey-darkest .p-4 .inset-0;
 }
