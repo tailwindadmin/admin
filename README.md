@@ -20,7 +20,6 @@ Then Open index.html.
 
 
 ## TODO:
- * Modal Popups
  * Animation
 
 ## IN PROGRESS:
