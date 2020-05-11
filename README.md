@@ -21,6 +21,8 @@ Then Open index.html.
 
 ## TODO:
  * Animation
+ * Datatables
+ * Widgets
 
 ## IN PROGRESS:
  * Vue Js based admin panel template
