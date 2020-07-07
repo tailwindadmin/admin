@@ -2,6 +2,8 @@
 
 Super simple admin panel using [Tailwind CSS](https://tailwindcss.com).
 
+[Live Demo](https://tailwindadmin.netlify.app)
+
 ## Note
 For Tailwind CSS version < 1.0
 Please use 1.0.0 branch
