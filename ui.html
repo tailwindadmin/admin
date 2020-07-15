@@ -20,11 +20,11 @@
         <!--Header Section Starts Here-->
         <header class="bg-nav">
             <div class="flex justify-between">
-                <div class="p-1 mx-3 inline-flex">
-                    <h1 class="text-white">Logo</h1>
-                    <i class="fas fa-bars p-3 text-white" onclick="sidebarToggle()"></i>
+                <div class="p-1 mx-3 inline-flex items-center">
+                    <i class="fas fa-bars pr-2 text-white" onclick="sidebarToggle()"></i>
+                    <h1 class="text-white p-2">Logo</h1>
                 </div>
-                <div class="p-1 flex flex-row">
+                <div class="p-1 flex flex-row items-center">
                     <img onclick="profileToggle()" class="inline-block h-8 w-8 rounded-full" src="https://avatars0.githubusercontent.com/u/4323180?s=460&v=4" alt="">
                     <a href="#" onclick="profileToggle()" class="text-white p-2 no-underline hidden md:block lg:block">Adam Wathan</a>
                     <div id="ProfileDropDown" class="rounded hidden shadow-md bg-white absolute top-0 mt-12 mr-1 right-0">
@@ -34,7 +34,7 @@
                           <li><hr class="border-t mx-2 border-gray-ligght"></li>
                           <li><a href="#" class="no-underline px-4 py-2 block text-black hover:bg-gray-300">Logout</a></li>
                         </ul>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </header>
